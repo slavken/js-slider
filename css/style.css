@@ -1,0 +1,33 @@
+.content {
+  text-align: center;
+}
+
+.btns {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-left: 2px;
+  margin-right: 2px;
+  outline: none;
+}
+
+button:hover {
+  background: blueviolet;
+  color: white;
+  border: 1px solid black;
+}
+
+img {
+  max-width: 50%;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    max-width: 100%;
+  }
+}
